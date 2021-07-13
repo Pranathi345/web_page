@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behaviour:smooth;
+    
+  }
+  body{
+    background:grey;
+    color:white;
+  }
+.navbar{
+	overflow: hidden;
+  background-color:black;
+  cursor:pointer;
+  height: 100px
+  
+  }
+ 
+.navbar a{
+	padding:5px 5px;
+    float:right;
+   
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  position: sticky;
+  transition:all 0.3s ease;
+    }
+    .navbar a.left{
+    float:left;
+    }
+    .navbar a:hover {
+  
+  color:red;
+
+}
+.navbar a:active{
+  
+  color:blue;
+}
+    .text{
+        padding:10px 5px 5px 5px;
+        height:500px;
+        float:right;
+    }
+    
+    
+   .class{
+       padding: 10px 3px;
+       
+   }
+   h2{
+       text-align:center;
+   }
+   .main{
+       padding:3px 8px;
+   }
+   .home{
+       
+       padding:3px;
+   }
+.img{
+  height:100%
+}
+h1{
+  padding:10px 3px;
+}
+.data{
+  padding: 5px;;
+}
+.sp4{
+  height:250px;
+  width:50%;
+  padding:10px;
+}
+
+.sp1{
+  float:left;
+  padding:10px;
+  width:50%;
+  height:100%;
+}
+.sp2{
+  
+  padding:10px;
+  width:50%;
+  height:100%;
+}
+.sp3{
+  float:right;
+  padding:10px;
+  width:50%;
+  height:100%;
+}
+
+.sp6{
+  width:50%;
+  height:250px;
+  padding:5px;
+}
+#upbtn{
+	width: 25px;
+	cursor: pointer;
+}
+
+
